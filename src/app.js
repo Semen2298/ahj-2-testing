@@ -3,7 +3,7 @@ import getCardType from './card-type';
 import visaImg from './img/visa.png';
 import mcImg from './img/mastercard.png';
 import amexImg from './img/amex.png';
-import mirImg from './img/mir.png';
+import mirImg from './img/mir-card.png';
 
 document.querySelector('.icon-visa').src = visaImg;
 document.querySelector('.icon-mastercard').src = mcImg;
