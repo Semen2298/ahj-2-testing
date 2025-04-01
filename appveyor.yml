@@ -1,6 +1,7 @@
-image: node
+image: Visual Studio 2022
 
 install:
+  - ps: Install-Product node 18
   - npm install
 
 build_script:
@@ -15,5 +16,6 @@ deploy:
   provider: GitHub
   auth_token:
     secure: RffCgR1apxcJX/0Ti1xqlSvT2I5nRcQvsEbZe8wy0+A05jfgu9GjiMojgndd0lVJ
+  artifact: output
   on:
     branch: main
