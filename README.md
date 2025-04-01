@@ -1,6 +1,6 @@
 # Credit Card Validator
 
-![Build status](https://ci.appveyor.com/api/projects/status/your_project_id?svg=true)
+![Build status](https://ci.appveyor.com/api/projects/status/github/Semen2298/ahj-2-testing?branch=main&svg=true)
 
 [GitHub Pages](https://Semen2298.github.io/ahj-2-testing/)
 
