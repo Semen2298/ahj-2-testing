@@ -1,0 +1,19 @@
+image: node
+
+install:
+  - npm install
+
+build_script:
+  - npm run build
+  - npm test
+
+artifacts:
+  - path: dist
+    name: output
+
+deploy:
+  provider: GitHub
+  auth_token:
+    secure: YOUR_GITHUB_TOKEN
+  on:
+    branch: main
